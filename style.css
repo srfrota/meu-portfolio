@@ -123,11 +123,10 @@ header .navegacao-primaria li a:hover::after {
 .section-div div a {
     justify-self: start;
     color: #fff;
-    padding: 15px 40px;
+    padding: 15px 15px;
     border-radius: 5px;
-    border: 2px solid white;
+    border: 2px solid var(--cor1);
 }
-
 
 .section-div img {
     max-width: 100%;
@@ -373,7 +372,7 @@ main .sobre {
 
 .services {
     margin-top: 0px;
-    padding: 25px;
+    padding: 15px 5px 30px 5px;
     background-color: #151515;
     border-radius: 20px;
 }
