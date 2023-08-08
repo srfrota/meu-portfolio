@@ -131,7 +131,7 @@ header .navegacao-primaria li a:hover::after {
 
 .section-div img {
     max-width: 100%;
-    min-width: 120%;
+    min-width: 107%;
     margin: auto;
     display: block;   
     border-radius: 5px;
@@ -482,10 +482,10 @@ main .sobre {
 .resume_gerenico h2 {
     font-family: 'Poppins';
     font-size: 1.5rem;
-    background-color: #ff5d56;
+    background-color: var(--cor0);
     justify-self: start;
     padding: 10px;
-    border-radius: 1px;
+    border-radius: 5px;
 }
 
 .resume_gerenico h2 i {
@@ -505,7 +505,7 @@ main .sobre {
 }
 
 .experience_content ul {
-    color: #ff5d56;
+    color: var();
     gap: 10px;
     cursor: pointer;
     margin-top: 20px;
@@ -530,10 +530,11 @@ main .sobre {
     top: -20px;
     left: 30px;
     position: absolute;
+    border-radius: 5px;
 }
 
 .resume_gerenico .experience_content div span {
-    color: #dc3545;
+    color: var(--cor1);
     font-family: 'Poppins';
     font-weight: bold;
 }
@@ -543,15 +544,18 @@ main .sobre {
     margin: 10px 0;
 }
 
-.resume_gerenico .experience_content div p {
+.resume_gerenico .experience_content div p { 
     color: #707070;
     font-size: 1.1rem;
+    text-align: justify;
+    text-indent: 10px;
 }
 
 
 .resume_gerenico .experience_content div.ativo {
     display: block;
     padding: 40px;
+    border-radius: 5px;
 }
 
 .experience_content ul li.ativo {
@@ -565,10 +569,11 @@ main .sobre {
     display: none;
     background-color: #222;
     padding: 20px;
+    border-radius: 5px;
 }
 
 .resume_gerenico .education_content ul {
-    color: #ff5d56;
+    color: var(--cor6);
     gap: 10px;
     cursor: pointer;
     margin-top: 20px;
@@ -584,10 +589,11 @@ main .sobre {
     top: -20px;
     left: 30px;
     position: absolute;
+    border-radius: 5px;
 }
 
 .resume_gerenico .education_content div span {
-    color: #dc3545;
+    color: var(--cor1);
     font-family: 'Poppins';
     font-weight: bold;
 }
@@ -600,6 +606,7 @@ main .sobre {
 .resume_gerenico .education_content div p {
     color: #707070;
     font-size: 1.1rem;
+    text-align: justify;
 }
 
 .resume_gerenico .education_content ul li.ativo {
