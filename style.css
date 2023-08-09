@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 
 :root {
@@ -277,7 +278,36 @@ main .sobre {
     font-size: 1.3rem;
     grid-row: 2;
     grid-column: 1/-1;
-    font-family: cursive;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    font-size: 1.7em;
+    text-indent: 10px;
+}
+
+span.person-text {
+    background-color: #3DFAFF;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+span.person-text-html {
+    background-color: orangered;
+    color: #FFFFFF;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+span.person-text-css {
+    background-color: var(--cor6);
+    color: #3A7CA5;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+span.person-text-javascript {
+    background-color: #EFD81D;
+    padding: 3px;
+    border-radius: 2px;
 }
 
 .sobre_info {
@@ -287,10 +317,11 @@ main .sobre {
     grid-column: 1/-1;
     gap: 15px;
     align-items: center;
+    text-align: left;
 }
 
 .sobre_info i {
-    color: var(--cor4);
+    color: var(--cor5);
     display: inline-block;
     padding-right: 15px;
     font-size: 1.5rem;
@@ -298,6 +329,8 @@ main .sobre {
 
 .sobre_info p {
     font-size: .9rem;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.24em;
 }
 
 @keyframes sobeSecao {
@@ -407,6 +440,7 @@ main .sobre {
     align-content: center;
     height: 300px;
     background-color: #222;
+    font-family: 'Comic Neue', cursive;
 }
 
 .my_services ul li i {
@@ -522,6 +556,7 @@ main .sobre {
     display: none;
     background-color: #222;
     padding: 40px;
+    font-family: 'Comic Neue', cursive;
 }
 
 
@@ -611,9 +646,11 @@ main .sobre {
     font-size: 1.1rem;
     text-align: justify;
     text-indent: 10px;
+    font-family: 'Comic Neue', cursive;
 }
 
 .resume_gerenico .education_content ul li.ativo {
+    
     color: #2f2b2b;
 }
 
