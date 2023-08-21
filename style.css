@@ -53,13 +53,15 @@ header .navegacao-primaria {
     display: flex;
     gap: 30px;
     align-items: center;
+    
 }
 
 header .navegacao-primaria li a {
     color: #fff;
+    font-family: 'Poppins';
     width: 0px;
     height: 0px;
-    font-size: 1.3rem;
+    font-size: 1.0rem;
 }
 
 header .navegacao-primaria li a::after {
@@ -75,7 +77,8 @@ header .navegacao-primaria li a:hover::after {
     width: 100%;
     height: 0px;
     padding: 0px;
-    border-bottom: 4px solid #dc3545;
+    border-bottom: 4px solid var(--cor2);
+    border-radius: 10px
 }
 
 /* DOWLOAD CV SECAO */
